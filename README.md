@@ -4,7 +4,7 @@ graphics , mesa , 20.1.5 , support , x86_64 , gallium-pipe , OpenCL , d3d , nine
 
 1) install https://github.com/Griggorii/mesa-20.1.2_V15-libdrm_ubuntu-19.04-20.04-20.10_X86_64_full_stack_graphics + libswrAVX.so.0.0.0 , libswrAVX2.so.0.0.0
 
-2) sudo tar xvpf mesa-20.1.5_by_grigorii.tar.xz
+2) sudo tar xvpf mesa-20.1.5_by_grigorii.tar.xz -C /
 
 Reboot enjoy
 
