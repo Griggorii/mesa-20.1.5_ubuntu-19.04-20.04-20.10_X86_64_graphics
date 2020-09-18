@@ -17,13 +17,13 @@ target /mesa/build/src/gallium/targets/graw-null
 
 Чем полезна технология zst так это очень гигантская скорость работы запаковки и распаковки единственное может проблема быть со ссылками по этому я покажу пример команд здесь ниже что сначала надо распаковать в tar и уже после из него тогда все ссылки распакуются.
 
-unzstd mesa.tar.zst && tar -I zstd -xvf mesa.tar
+$ unzstd mesa.tar.zst && tar -I zstd -xvf mesa.tar
 
 Тюе вы можете потренироваться например запаковать какой нибудь гигантский kernel архив пример запаковки и распаковки example:
 
-tar --zstd -cvf - kernel_my_number_100500 | zstd -6 - -o kernel_my_number_100500.tar.zst
+$ tar --zstd -cvf - kernel_my_number_100500 | zstd -6 - -o kernel_my_number_100500.tar.zst
 
-unzstd kernel_my_number_100500.tar.zst && tar -I zstd -xvf kernel_my_number_100500.tar
+$ unzstd kernel_my_number_100500.tar.zst && tar -I zstd -xvf kernel_my_number_100500.tar
 
 
 
