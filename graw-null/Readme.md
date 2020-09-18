@@ -19,4 +19,12 @@ target /mesa/build/src/gallium/targets/graw-null
 
 unzstd mesa.tar.zst && tar -I zstd -xvf mesa.tar
 
+Тюе вы можете потренироваться например запаковать какой нибудь гигантский kernel архив пример запаковки и распаковки example:
+
+tar --zstd -cvf - kernel_my_number_100500 | zstd -6 - -o kernel_my_number_100500.tar.zst
+
+unzstd kernel_my_number_100500.tar.zst && tar -I zstd -xvf kernel_my_number_100500.tar
+
+
+
 
