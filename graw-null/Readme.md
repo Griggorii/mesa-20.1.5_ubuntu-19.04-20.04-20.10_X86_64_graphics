@@ -9,6 +9,6 @@ chmod o-w libgraw_null.so
 sudo mv libgraw_null.so libgraw_util.a /usr/lib/x86_64-linux-gnu/
 
 
-the search engine did not give information about this file, whether it can be any kind of reincarnation of something is not yet known
+the search engine did not give information about this file, whether it can be any kind of reincarnation of something is not yet known https://marc.info/?l=mesa3d-dev&m=129901747405431&w=2
 
 target /mesa/build/src/gallium/targets/graw-null
