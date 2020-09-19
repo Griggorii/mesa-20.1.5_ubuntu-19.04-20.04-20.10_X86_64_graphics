@@ -8,6 +8,10 @@ Ubuntu X64 ubuntu 19.04 disco dingo , ubuntu 20.04 focal fossa , Ubuntu 20.10 Gr
 
 2) sudo tar xvpf mesa-20.1.5_by_grigorii.tar.xz -C /
 
+Terminal run check version command:
+
+$ glxinfo
+
 Reboot enjoy
 
 Драйвер был получен в докер контеинере на моей системе https://www.youtube.com/watch?v=9B-nTJyEZX0
